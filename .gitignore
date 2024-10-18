@@ -236,3 +236,9 @@ html/*
 requirements.txt
 
 test.py
+
+dev
+dev/
+
+backup
+backip/
