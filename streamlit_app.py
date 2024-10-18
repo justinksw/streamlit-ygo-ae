@@ -135,7 +135,7 @@ with st.expander("Level / Rank / Link"):
 # === Abilities/Other (Monsters)=== #
 
 
-with st.expander("Abilities/Other"):
+with st.expander("Abilities / Other"):
 
     col1, col2, col3, col4 = st.columns(4)
 
@@ -160,6 +160,7 @@ with st.expander("Abilities/Other"):
 
 
 if "select_attribute" not in st.session_state:
+
     st.session_state["select_attribute"] = False
     st.session_state["select_spell_trap"] = False
     st.session_state["select_monster_type"] = False
